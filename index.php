@@ -26,15 +26,15 @@
 						</li>
 						<li>
 							<a href="#summary">Summary</a>
+						</li>
+						<li>
+							<a href="#languageSkills">Skills</a>
 						</li> 
 						<li>
 							<a href="#workExperience">Work Experience</a>
 						</li> 
 						<li>
 							<a href="#education">Education</a>
-						</li>
-						<li>
-							<a href="#languageSkills">Language & Personal skills</a>
 						</li>
 						<li>
 							<a href="#otherInterested">Other information & Interest</a>
@@ -48,7 +48,7 @@
 		<figure class="aboutMe-picture">
 			<img src="static/img/Me.jpg" alt="Alejandro Rodríguez">
 			<figcaption>
-				Hi, I'm Alejandro Rodríguez<br>Web developer (Front-End)
+				Hi, I'm Alejandro Rodríguez<br>Web development (Front-End)
 			</figcaption>
 		</figure>
 		<div class="aboutme-info">
@@ -60,6 +60,9 @@
 	</div>
 	<div id="summary">
 		<h1>Summary</h1>
+		<p></p>
+	</div>
+	<div id="languageSkills">
 		<ul>
 			<li>HTML5</li>
 			<li>CSS3</li>
@@ -78,13 +81,54 @@
 	</div>
 	<div id="workExperience">
 		<h1>Work Experience</h1>
-		<div>
-			<span>February 2014 - July 2014</span>
-		</div>
+		<ul class="workExperienceStorage">
+			<li><strong>March 2016 to Current</strong></li>
+			<li><strong>Front-end development</strong></li>
+			<li><strong>Storage Media Solutions S.A. de C.V</strong></li>
+			<li><strong>Development</strong></li>
+			<li><strong>Functions description</strong>:<br>
+				Layout with Bootstrap framework, AJAX petitions, Javascript with JQuery.
+				Some times working with Codeigniter making web services.
+			</li>
+		</ul>
+		<ul class="workExperienceBosc">
+			<li><strong>August 2015 to February 2016</strong></li>
+			<li><strong>Back-end development</strong></li>
+			<li><strong>BOSC Consulting</strong></li>
+			<li><strong>Development</strong></li>
+			<li><strong>Functions description</strong>:<br>
+				Web services development for created API by the same company, using REST architecture.
+			</li>
+		</ul>
+		<ul class="workExperienceNaviomar">
+			<li><strong>October 2014 to August 2015</strong></li>
+			<li><strong>System administrator</strong></li>
+			<li><strong>Naviomar S.A de C.V.</strong></li>
+			<li><strong>Back-end and Front-end</strong></li>
+			<li><strong>Functions description</strong>:<br>
+				System administrator, making changes in data base, modifying and developing news modules. Firsh time using Git with Github.
+			</li>
+		</ul>
+		<ul class="workExperienceDai">
+			<li><strong>February 2014 to July 2014</strong></li>
+			<li><strong>Professional practice</strong></li>
+			<li><strong>Dai Magazine Mexico/Spain</strong></li>
+			<li><strong>Front-end development</strong></li>
+			<li><strong>Functions description</strong>:<br>
+				Front-end designer, working with HTML5, CSS3, JavaScript and template handle with Photoshop.
+				URL: http://www.tradajoideal.net (site disabled).
+			</li>
+		</ul>
 	</div>
 	<div id="education">
-	</div>
-	<div id="languageSkills">
+		<div class="row">
+			<div class="col-md-4"><strong>University</strong></div>
+			<div class="col-md-8">
+				UNIVERSIDAD POLITÉCNICA DEL VALLE DE MÉXICO<br>
+				Computer Engineering (Title given, certificate in procedure) <br>
+				Generation 2011-2014
+			</div>
+		</div>
 	</div>
 	<div id="otherInterested">
 	</div>
